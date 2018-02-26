@@ -142,76 +142,19 @@ a{
 #main .content .way>ul>li:last-child>a{
     color: #e42124;
 }
-/*关于介绍*/
-#main .content .synopsis{
-    font-family: "Microsoft Yahei Light";
-    font-size: 16px;
-    color: #000;
-    font-weight: lighter;
-    margin-top: 28px;
+/*产品详情*/
+td{
+    text-align: center;
+    border: 1px solid #000;
 }
-#main .content .cooperate{
-    padding-left: 20px;
-    margin-top: 28px;
+tr td:first-child{
+    padding: 0 30px;
+    font-weight: bold;color: #000;
 }
-#main .content .cooperate li{
-    list-style: disc outside none;
-    padding-bottom: 28px;
+tr td:last-child{
+    padding: 0 280px;
 }
-#main .content .cooperate li .cooperate_title{
-    font-family: "Microsoft Yahei Light";
-    font-weight: lighter;
-    font-size: 16px;
-    color: #000;
-}
-#main .content .cooperate li .cooperate_name{
-    font-family: "Microsoft YaHei Bold";
-    font-weight: bold;
-    font-size: 16px;
-    color: #e42124;
-}
-#main .content .text1{
-    font-family: "Microsoft Yahei Light";
-    font-weight: lighter;
-    font-size: 16px;
-    color: #000;
-}
-#main .content .text2{
-    font-family: "Microsoft YaHei Light";
-    font-weight: lighter;
-    font-size: 16px;
-    color: #000;
-    margin-top: 28px;
-}
-#main .content h2.main_title{
-    font-family: "Microsoft YaHei Bold"; font-weight: bold;
-    font-size: 24px; color: #e42124;margin-top: 30px;
-    border-bottom: 1px solid #cfcfcf;padding-bottom: 16px;
-}
-#main .content>h4{
-    font-family: "Microsoft YaHei Bold"; font-weight: bold;
-    font-size: 14px; color: #e42124;margin-top: 30px;
-}
-#main .content>ul{
-    margin-top: 30px;
-    padding-left: 20px;
-}
-#main .content>ul li{
-    font-family: "Microsoft YaHei Bold";
-    list-style: disc outside none;
-    font-size: 14px; font-weight: bold;
-    color: #000;
-}
-#main .content .main_text{
-    font-family: "Microsoft YaHei Light";font-weight: lighter;
-    font-size: 14px; color: #000;
-}
-#main .content .first{
-    margin-top: 30px;
-}
-#main .content img.main_img{
-    margin-top: 40px;
-}
+
 #con_bg{
     height: 412px;
     background: url("../images/cooperate_bg.jpg")no-repeat;

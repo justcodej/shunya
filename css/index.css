@@ -423,7 +423,7 @@ li{
     text-decoration: none;
 }
 #product_list .part ul.part_list li>a:hover{
-    text-decoration: underline;
+    text-decoration: underline;color: #e42124;
 }
 #product_list .part ul.part_list li>a:hover .mask_layer{
     opacity: 1;
@@ -500,36 +500,7 @@ li{
 #footer_cooperate .content ul.cooperate_logo li{
     flex: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*footer*/
+/*footer*/
 #footer{
     height: 356px;
     background-color: #333;
