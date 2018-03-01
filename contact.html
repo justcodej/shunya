@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <style type="text/css">
+        article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary{
+            display: block;
+        }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="./js/html5shiv.js"></script>
+    <![endif]-->
     <link rel="stylesheet" href="css/contact.css">
     <style type="text/css">
         html,body{margin:0;padding:0;}
@@ -16,7 +24,7 @@
 </head>
 <body>
     <div id="banner"><img src="./images/about-us.jpg" alt="banner"></div>
-    <main id="main">
+    <div id="main">
         <div class="sidebar">
             <h2 class="sidebar_title">
                 <p class="title">联系我们</p>
@@ -28,7 +36,7 @@
                     <i class="icon_arrow"></i>
                 </a>
             </div>
-            <div class="big_nav">
+            <div class="big_nav last1">
                 <a href="javascript:">
                     <i class="icon"></i>
                     <p class="text">产品中心</p>
@@ -36,7 +44,7 @@
                     <i class="icon_arrow"></i>
                 </a>
             </div>
-            <div class="big_nav active">
+            <div class="big_nav last2">
                 <a href="javascript:">
                     <i class="icon"></i>
                     <p class="text">联系我们</p>
@@ -60,17 +68,17 @@
             <p class="company_name">上海顺雅化工进出口有限公司</p>
             <p class="company_name_en">SHANGHAI SUNRISE CHEMICAL IMP.&EXP. CO.,LTD.</p>
             <ul class="detail">
-                <li><i class="icon"></i>
+                <li class="li1"><i class="icon"></i>
                     <p class="text">Mobile</p>
                     <p class="info">021-5213 4681</p>
                     <i class="line"></i>
                 </li>
-                <li><i class="icon"></i>
+                <li class="li2"><i class="icon"></i>
                     <p class="text">E-mail</p>
                     <p class="info">yinying@shunyachemical.com</p>
                     <i class="line"></i>
                 </li>
-                <li><i class="icon"></i>
+                <li class="li3"><i class="icon"></i>
                     <p class="text">Add</p>
                     <p class="info">上海市静安区梅园路228号企业广场518室</p>
                 </li>
@@ -78,7 +86,7 @@
             <div style="height:334px;margin-top:48px;" id="dituContent"></div>
         </div>
         <div class="clear"></div>
-    </main>
+    </div>
     <div id="con_bg"></div>
     <script type="text/javascript">
         //创建和初始化地图函数：

@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <style type="text/css">
+        article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary{
+            display: block;
+        }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="./js/html5shiv.js"></script>
+    <![endif]-->
     <link rel="stylesheet" href="css/about.css">
     <title>关于顺雅</title>
 </head>
 <body>
     <div id="banner"><img src="./images/about-us.jpg" alt="banner"></div>
-    <main id="main">
+    <div id="main">
         <div class="sidebar">
             <h2 class="sidebar_title">
                 <p class="title">关于顺雅</p>
@@ -22,7 +30,7 @@
                     <i class="icon_arrow"></i>
                 </a>
             </div>
-            <div class="big_nav">
+            <div class="big_nav last1">
                 <a href="javascript:">
                     <i class="icon"></i>
                     <p class="text">产品中心</p>
@@ -30,7 +38,7 @@
                     <i class="icon_arrow"></i>
                 </a>
             </div>
-            <div class="big_nav">
+            <div class="big_nav last2">
                 <a href="javascript:">
                     <i class="icon"></i>
                     <p class="text">联系我们</p>
@@ -80,7 +88,7 @@
             <img class="main_img" src="./images/about_main.jpg" alt="主营">
         </div>
         <div class="clear"></div>
-    </main>
+    </div>
     <div id="con_bg"></div>
 </body>
 </html>

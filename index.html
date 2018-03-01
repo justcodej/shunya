@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <style type="text/css">
+        article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary{
+            display: block;
+        }
+    </style>
+    <!--[if lt IE 9]>
+　　　　<script src="./js/html5shiv.js"></script>
+    <![endif]-->
     <link rel="stylesheet" href="./css/index.css">
     <title>顺雅</title>
 </head>
@@ -21,12 +29,12 @@
                     <li>
                         <input type="text" placeholder="Search...">
                     </li>
-                    <li>
+                    <li class="marL">
                         <i class="language icon_china"></i>
                         <a href="javascript:" class="china text">中文</a>
                     </li>
-                    <li>
-                        <i class="language icon_eglish"></i>
+                    <li class="marL">
+                        <i class="language icon_english"></i>
                         <a href="javascript:" class="eglish text">English</a>
                     </li>
                 </ul>
@@ -81,8 +89,8 @@
         <div class="tab_part">
             <div class="tab_icon">
                 <ul>
-                    <li><a href="javascript:"></a></li>
-                    <li><a href="javascript:"></a></li>
+                    <li class="first_li"><a href="javascript:"></a></li>
+                    <li class="last_li"><a href="javascript:"></a></li>
                 </ul>
             </div>
             <div class="tab_text">
@@ -181,7 +189,7 @@
             </div>
             <div class="list">
                 <ul>
-                    <li>
+                    <li class="ad_left">
                         <a href="javascript:">
                             <img class="ad_img" src="./images/ad_list_1.jpg" alt="ad">
                             <div class="mask_layer"><i class="icon_search"></i></div>
@@ -189,7 +197,7 @@
                             <div class="bar"></div>
                         </a>
                     </li>
-                    <li>
+                    <li class="ad_middle">
                         <a href="javascript:">
                             <img class="ad_img" src="./images/ad_list_1.jpg" alt="ad">
                             <div class="mask_layer"><i class="icon_search"></i></div>
@@ -197,7 +205,7 @@
                             <div class="bar"></div>
                         </a>
                     </li>
-                    <li>
+                    <li class="ad_right">
                         <a href="javascript:">
                             <img class="ad_img" src="./images/ad_list_1.jpg" alt="ad">
                             <div class="mask_layer"><i class="icon_search"></i></div>
